@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1027183054114",
+    "project_id": "cashmanagement-bb023",
+    "storage_bucket": "cashmanagement-bb023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1027183054114:android:4bc52e64e17ec26436697b",
+        "android_client_info": {
+          "package_name": "com.example.cashmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1027183054114-4d7tvf5a0gnvvsg93kjf380bbv4l6jp4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsIu2ELK9ppPl1gx4fQFm8YgyM6gBgRFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1027183054114-4d7tvf5a0gnvvsg93kjf380bbv4l6jp4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

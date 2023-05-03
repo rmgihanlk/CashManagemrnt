@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/b1Coll"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="37dp"
+        android:text="Collections"
+        app:layout_constraintBottom_toTopOf="@+id/b2Out"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b2Out"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="40dp"
+        android:text="Outstanding Clients"
+        app:layout_constraintBottom_toTopOf="@+id/b3over"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b1Coll" />
+
+    <Button
+        android:id="@+id/b4chca"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="204dp"
+        android:text="Cheque and Cash Management"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b3over" />
+
+    <Button
+        android:id="@+id/b3over"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="47dp"
+        android:text="Overdue Invoices"
+        app:layout_constraintBottom_toTopOf="@+id/b4chca"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b2Out" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
