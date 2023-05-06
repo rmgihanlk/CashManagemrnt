@@ -18,7 +18,8 @@ class MainActivityCashProcessing : AppCompatActivity() {
     //private lateinit var editTextDate01: EditText
     private lateinit var btnmenuAdd: Button
     private lateinit var btnList: Button
-    private lateinit var btnUpdate: Button
+    private lateinit var btnmenuUpdate: Button
+    private lateinit var btnmenuSummary: Button
 
     private lateinit var sqLiteHelper: SQLiteHelper
     private lateinit var recyclerView: RecyclerView
@@ -65,8 +66,14 @@ class MainActivityCashProcessing : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val buttonClick02 = findViewById<Button>(R.id.btnUpdate)
+        val buttonClick02 = findViewById<Button>(R.id.btnmenuUpdate)
         buttonClick02.setOnClickListener {
+            val intent = Intent(this, PaymentUpdate::class.java)
+            startActivity(intent)
+        }
+
+        val buttonClick03 = findViewById<Button>(R.id.btnmenuSummary)
+        buttonClick03.setOnClickListener {
             val intent = Intent(this, PaymentUpdate::class.java)
             startActivity(intent)
         }
@@ -158,7 +165,8 @@ class MainActivityCashProcessing : AppCompatActivity() {
         editTextDate01 = findViewById(R.id.editTextDate01)*/
         btnmenuAdd = findViewById(R.id.btnmenuAdd)
         btnList = findViewById(R.id.btnList)
-        btnUpdate = findViewById(R.id.btnUpdate)
+        btnmenuUpdate = findViewById(R.id.btnmenuUpdate)
+        btnmenuSummary = findViewById(R.id.btnmenuSummary)
         //recyclerView = findViewById(R.id.recycleViewList)
     }
 
