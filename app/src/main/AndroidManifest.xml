@@ -12,6 +12,18 @@
         android:theme="@style/Theme.CashManagement"
         tools:targetApi="31">
         <activity
+            android:name=".PaymentUpdate"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentProcess"
+            android:exported="false" />
+        <activity
+            android:name=".ReviewPayment"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityCashProcessing"
+            android:exported="false" />
+        <activity
             android:name=".EmployeeDetailsActivity"
             android:exported="false"
             android:label="@string/title_activity_employee_details"

@@ -3,7 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".MainActivityCashProcessing">
+
 
     <Button
         android:id="@+id/btnmenuAdd"
@@ -13,7 +15,8 @@
         android:layout_marginTop="121dp"
         android:layout_marginEnd="71dp"
         android:layout_marginBottom="37dp"
-        android:text="Collections"
+        android:text="ADD QUICK TRANSACTION"
+        android:textSize="14sp"
         app:layout_constraintBottom_toTopOf="@+id/btnList"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,7 +29,7 @@
         android:layout_marginStart="71dp"
         android:layout_marginEnd="71dp"
         android:layout_marginBottom="40dp"
-        android:text="Outstanding Clients"
+        android:text="ON GOING TRANSACTIONS"
         app:layout_constraintBottom_toTopOf="@+id/btnmenuUpdate"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,7 +42,7 @@
         android:layout_marginStart="71dp"
         android:layout_marginEnd="71dp"
         android:layout_marginBottom="204dp"
-        android:text="Cheque and Cash Management"
+        android:text="SUMMARY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -52,7 +55,7 @@
         android:layout_marginStart="71dp"
         android:layout_marginEnd="71dp"
         android:layout_marginBottom="47dp"
-        android:text="Overdue Invoices"
+        android:text="UPDATE TRANSACTIONS"
         app:layout_constraintBottom_toTopOf="@+id/btnmenuSummary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
