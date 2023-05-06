@@ -10,5 +10,6 @@
     <color name="selectedTabColor">#40e0d0</color>
     <color name="custom_background_color">#FF0000</color>
     <color name="divider_grey">#CCCCCC</color>
+    <color name="blue">#2196F3</color>
 
 </resources>
